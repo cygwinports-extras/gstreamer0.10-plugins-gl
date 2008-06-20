@@ -1,0 +1,5 @@
+category: Video
+requires: cygwin glib2-devel gstreamer010-devel gstreamer010-plugins-base-devel mesa-devel libX11-devel
+external-source: gstreamer010-plugins-gl
+sdesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework (libdevel)"
+ldesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
