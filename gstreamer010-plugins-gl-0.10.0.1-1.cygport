@@ -1,6 +1,6 @@
 inherit gst-plugins cvs
 
-PKG_NAMES="${PN} libgstgl${PV_MAJ_MIN}_0 libgstgl${PV_MAJ_MIN}-devel"
+PKG_NAMES="${PN} libgstgl${PV_MAJ_MIN} libgstgl${PV_MAJ_MIN}-devel"
 PKG_HINTS="setup lib devel"
 PKG_CONTENTS[0]="${GST_PLUGINDIR#/}/ usr/share/doc/ usr/share/locale/"
 PKG_CONTENTS[1]="usr/bin/*.dll"

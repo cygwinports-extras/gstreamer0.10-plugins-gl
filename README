@@ -16,7 +16,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.10-1.10.1-1
   binutils-20080523-1
-  cygport-0.3.11-1
+  cygport-0.3.12-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.2-2
@@ -42,7 +42,7 @@ Build instructions:
 This will create:
   /usr/src/gstreamer010-plugins-gl-0.10.0.1-X-src.tar.bz2
   /usr/src/gstreamer010-plugins-gl-0.10.0.1-X.tar.bz2
-  /usr/src/libgstgl0.10_0-0.10.0.1-X.tar.bz2
+  /usr/src/libgstgl0.10-0.10.0.1-X.tar.bz2
   /usr/src/libgstgl0.10-devel-0.10.0.1-X.tar.bz2
 
 -------------------------------------------
@@ -62,7 +62,7 @@ Files included in the binary packages:
   /usr/share/doc/gstreamer010-plugins-gl-0.10.0.1/README
   /usr/share/locale/en/LC_MESSAGES/gst-plugins-gl-0.10.mo
 
-(libgstgl0.10_0)
+(libgstgl0.10)
   /usr/bin/cyggstgl-0.10-0.dll
 
 (libgstgl0.10-devel)
