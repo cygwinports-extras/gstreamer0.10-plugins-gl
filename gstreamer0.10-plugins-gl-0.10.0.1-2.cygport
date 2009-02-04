@@ -1,5 +1,3 @@
-GIT_URI="git://diracvideo.org/git/gst-plugins-gl.git"
-
 inherit gst-plugins git
 
 PATCH_URI="0.10.0.1-cygwin-glx.patch

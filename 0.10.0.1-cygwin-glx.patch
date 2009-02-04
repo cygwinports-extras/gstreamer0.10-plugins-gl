@@ -1,11 +1,11 @@
 --- origsrc/gst-plugins-gl/configure.ac	2009-02-03 22:20:00.000000000 -0600
 +++ src/gst-plugins-gl/configure.ac	2009-02-03 23:19:52.675625000 -0600
-@@ -261,7 +261,7 @@ dnl
- 
+@@ -163,7 +163,7 @@ dnl
+ #dnl Check for OpenGL, GLU and GLEW
  echo host is $host
  case $host in
--  *-linux*)
-+  *-linux*|*-cygwin*)
-     GL_LIBS="-lGLEW -lGLU -lGL -lX11"
-     GL_BACKEND=x11
-     ;;
+-  *-linux* | *-darwin*)
++  *-linux* | *-darwin* | *-cygwin*)
+     AG_GST_CHECK_X
+     save_CPPFLAGS="$CPPFLAGS"
+     save_LIBS="$LIBS"

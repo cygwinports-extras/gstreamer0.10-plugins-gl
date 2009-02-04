@@ -37,7 +37,7 @@ Canonical website:
   http://gstreamer.freedesktop.org/
 
 Canonical download:
-  http://diracvideo.org/git/gst-plugins-gl.git
+  git://anongit.freedesktop.org/git/gstreamer/gst-plugins-gl
 
 -------------------------------------------
 
@@ -89,7 +89,7 @@ Files included in the binary packages:
 Port Notes:
 
 ----- version 0.10.0.1-2 -----
-Update to git master, rev d58658cd.
+Update to FD.o git master.
 
 ----- version 0.10.0.1-1 -----
 Initial release for Cygwin.
