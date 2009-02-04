@@ -1,0 +1,5 @@
+category: Video
+requires: cygwin libGL1 libGLEW1.5 libglib2.0_0 libGLU1 libgstreamer0.10_0 libgstvideo0.10_0 libX11_6
+external-source: gstreamer0.10-plugins-gl
+sdesc: "GStreamer 0.10 multimedia framework OpenGL library (runtime)"
+ldesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"

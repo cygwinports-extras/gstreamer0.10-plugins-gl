@@ -1,4 +1,0 @@
-category: Video
-requires: cygwin glib2 gstreamer010 gstreamer010-plugins-base libGL1 libgstgl0.10 libintl8
-sdesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
-ldesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
