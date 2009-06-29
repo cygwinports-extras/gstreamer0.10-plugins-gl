@@ -1,4 +1,4 @@
 category: Video
-requires: cygwin libgdk_pixbuf2.0_0 libGL1 libGLEW1.5 libglib2.0_0 libGLU1 libgstinterfaces0.10_0 libgstgl0.10_0 libgstreamer0.10_0 libgstvideo0.10_0 libintl8
+requires: libgdk_pixbuf2.0_0 libGL1 libGLEW1.5 libglib2.0_0 libGLU1 libgstinterfaces0.10_0 libgstgl0.10_0 libgstreamer0.10_0 libgstvideo0.10_0 libintl8
 sdesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
 ldesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
