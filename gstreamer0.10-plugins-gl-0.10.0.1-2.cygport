@@ -1,9 +1,0 @@
-inherit gst-plugins git
-
-PATCH_URI="0.10.0.1-cygwin-glx.patch
-           0.10.0.1-vpath.patch"
-
-PKG_NAMES="${PN} libgstgl0.10_0 libgstgl0.10-devel"
-gstreamer0_10_plugins_gl_CONTENTS="${GST_PLUGINDIR#/}/ usr/share/doc/ usr/share/locale/"
-libgstgl0_10_0_CONTENTS="usr/bin/cyggstgl-0.10-0.dll"
-libgstgl0_10_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
