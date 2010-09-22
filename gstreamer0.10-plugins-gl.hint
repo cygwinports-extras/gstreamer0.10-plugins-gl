@@ -1,4 +1,4 @@
 category: Video
-requires: libGL1 libGLEW1.5 libglib2.0_0 libGLU1 libgstinterfaces0.10_0 libgstgl0.10_0 libgstreamer0.10_0 libgstvideo0.10_0 libintl8 libpng12
+requires: libGL1 libGLEW1.5 libglib2.0_0 libGLU1 libgstinterfaces0.10_0 libgstgl0.10_1 libgstreamer0.10_0 libintl8 libpng14
 sdesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
 ldesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"

@@ -1,5 +1,5 @@
 category: Video
-requires: libgstgl0.10_0 libGL-devel libGLEW-devel libglib2.0-devel libGLU-devel libgstreamer0.10-devel libgstvideo0.10-devel libX11-devel
+requires: libgstgl0.10_0 libGL-devel libGLEW-devel libglib2.0-devel libGLU-devel libgstreamer0.10-devel libgstinterfaces0.10-devel libX11-devel
 external-source: gstreamer0.10-plugins-gl
 sdesc: "GStreamer 0.10 multimedia framework OpenGL library (development)"
 ldesc: "OpenGL plugin for the GStreamer 0.10 multimedia framework"
