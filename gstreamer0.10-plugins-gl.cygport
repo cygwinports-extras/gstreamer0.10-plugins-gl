@@ -1,10 +1,20 @@
+NAME="gstreamer0.10-plugins-gl"
+VERSION=0.10.3
+RELEASE=1
+CATEGORY="Video"
+SUMMARY="GStreamer 0.10 OpenGL plugins"
+DESCRIPTION="The GStreamer OpenGL module provides helper libraries, base
+classes and elements for integrating with OpenGL and using it to perform
+video display and processing."
 inherit gst-plugins
 
 PKG_NAMES="${PN} libgstgl0.10_1 libgstgl0.10-devel"
 gstreamer0_10_plugins_gl_CONTENTS="${GST_PLUGINDIR#/}/ usr/share/doc/
                                    usr/share/gtk-doc/html/gst-plugins-gl-plugins-0.10/
                                    usr/share/locale/"
+libgstgl0_10_1_SUMMARY="GStreamer 0.10 OpenGL helper library (runtime)"
 libgstgl0_10_1_CONTENTS="usr/bin/cyggstgl-0.10-1.dll"
+libgstgl0_10_devel_SUMMARY="GStreamer 0.10 OpenGL helper library (development)"
 libgstgl0_10_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/
                              usr/share/gtk-doc/html/gst-plugins-gl-libs-0.10/"
 
