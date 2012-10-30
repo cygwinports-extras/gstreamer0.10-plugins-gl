@@ -1,6 +1,6 @@
 NAME="gstreamer0.10-plugins-gl"
 VERSION=0.10.3
-RELEASE=1
+RELEASE=2
 CATEGORY="Video"
 SUMMARY="GStreamer 0.10 OpenGL plugins"
 DESCRIPTION="The GStreamer OpenGL module provides helper libraries, base
